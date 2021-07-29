@@ -1,0 +1,278 @@
+<template>
+    <v-app>
+            <v-main class="fadeInDown">
+                <div class="terminalcompleta">
+                    <v-container class="barraterminal" transition="slide-x-transition">
+                        <v-row>
+                            <v-col class="iconsbarra">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                        text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g>
+                                            <path
+                                                d="M150.5,132.58333c0,9.89717 -8.0195,17.91667 -17.91667,17.91667h-93.16667c-9.89358,0 -17.91667,-8.0195 -17.91667,-17.91667v-93.16667c0,-9.89717 8.02308,-17.91667 17.91667,-17.91667h93.16667c9.89717,0 17.91667,8.0195 17.91667,17.91667z"
+                                                fill="#e74c3c"></path>
+                                            <path
+                                                d="M107.5,132.58333v-36.18808c0,-6.05225 -2.93475,-9.66783 -7.85467,-9.66783c-2.92042,0 -5.06683,1.64475 -6.37475,4.88767c-0.06092,0.22933 -0.14692,1.16458 -0.11108,3.99183l0.00717,36.97642h-25.08333v-68.08333h25.08333v3.80192c3.66217,-2.52625 8.15208,-3.80192 13.3945,-3.80192c16.29342,0 26.01858,11.08325 26.01858,29.6485l0.00358,38.43483zM39.41667,132.58333v-68.08333h12.38758c-7.17742,0 -12.38758,-5.27467 -12.38758,-12.54525c0,-7.26342 5.29617,-12.53808 12.59183,-12.53808c7.20967,0 12.34458,5.12775 12.4915,12.46642c0,7.32433 -5.29975,12.61692 -12.59542,12.61692h12.59542v68.08333z"
+                                                fill="#000000" opacity="0.05"></path>
+                                            <path
+                                                d="M109.29167,130.79167v-34.39642c0,-7.06992 -3.69442,-11.4595 -9.64633,-11.4595c-4.64042,0 -6.93375,3.268 -8.03742,6.00925c-0.29383,0.71308 -0.25442,3.54392 -0.24008,4.7515l0.00717,35.09517h-21.5v-64.5h21.5v5.8695c2.84875,-2.94908 7.43542,-5.8695 15.18617,-5.8695c15.16825,0 24.22692,10.41317 24.22692,27.85683l0.00358,36.64317zM41.20833,130.79167v-64.5h21.5v64.5zM51.80425,62.70833c-6.13825,0 -10.59592,-4.52217 -10.59592,-10.75358c0,-6.22783 4.54367,-10.74642 10.80017,-10.74642c6.17767,0 10.57442,4.40392 10.69983,10.71058c0,6.26725 -4.54367,10.78942 -10.80375,10.78942z"
+                                                fill="#000000" opacity="0.07"></path>
+                                            <path
+                                                d="M43,68.08333h17.91667v60.91667h-17.91667zM51.90458,60.91667h-0.10033c-5.34633,0 -8.80425,-3.98467 -8.80425,-8.96192c0,-5.08475 3.56542,-8.95475 9.0085,-8.95475c5.45025,0 8.80783,3.87 8.90817,8.95475c0,4.97367 -3.45792,8.96192 -9.01208,8.96192zM129,129h-17.91667v-32.60475c0,-7.87617 -4.38958,-13.25117 -11.438,-13.25117c-5.37858,0 -8.28825,3.62633 -9.70008,7.13083c-0.516,1.25417 -0.36192,4.72283 -0.36192,6.47508v32.25h-17.91667v-60.91667h17.91667v9.374c2.58358,-3.999 6.62917,-9.374 16.97783,-9.374c12.82117,0 22.43525,8.0625 22.43525,26.06517l0.00358,34.8515z"
+                                                fill="#ffffff"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                        text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#f1c40f">
+                                            <path
+                                                d="M78.11667,15.05c-32.96667,3.58333 -59.48333,30.1 -63.06667,62.35c-3.58333,33.68333 15.76667,63.78333 45.15,75.25c2.15,0.71667 4.3,-0.71667 4.3,-3.58333v-11.46667c0,0 -2.86667,0.71667 -6.45,0.71667c-10.03333,0 -14.33333,-8.6 -15.05,-13.61667c-0.71667,-2.86667 -2.15,-5.01667 -4.3,-7.16667c-2.15,-0.71667 -2.86667,-0.71667 -2.86667,-1.43333c0,-1.43333 2.15,-1.43333 2.86667,-1.43333c4.3,0 7.88333,5.01667 9.31667,7.16667c3.58333,5.73333 7.88333,7.16667 10.03333,7.16667c2.86667,0 5.01667,-0.71667 6.45,-1.43333c0.71667,-5.01667 2.86667,-10.03333 7.16667,-12.9c-16.48333,-3.58333 -28.66667,-12.9 -28.66667,-28.66667c0,-7.88333 3.58333,-15.76667 8.6,-21.5c-0.71667,-1.43333 -1.43333,-5.01667 -1.43333,-10.03333c0,-2.86667 0,-6.45 1.43333,-9.31667c0,-1.43333 1.43333,-2.15 2.15,-2.15h0.71667c3.58333,0.71667 10.75,2.86667 17.2,9.31667c4.3,-1.43333 9.31667,-2.15 14.33333,-2.15c5.01667,0 10.03333,0.71667 14.33333,2.15c6.45,-6.45 14.33333,-8.6 17.91667,-9.31667h0.71667c1.43333,0 2.15,0.71667 2.86667,2.15c0,2.86667 0,6.45 0,9.31667c0,5.73333 -0.71667,8.6 -1.43333,10.03333c5.01667,5.73333 8.6,12.9 8.6,21.5c0,15.76667 -12.18333,25.08333 -28.66667,28.66667c4.3,3.58333 7.16667,10.03333 7.16667,16.48333v18.63333c0,2.15 2.15,4.3 5.01667,3.58333c26.51667,-10.75 45.15,-36.55 45.15,-66.65c0,-43 -36.55,-76.68333 -79.55,-71.66667z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                            </v-col>
+                            <v-col>
+                                <p class="titulo-barraterminal">Bienvenido!</p>
+                            </v-col>
+                        </v-row>
+                    </v-container>
+                    <v-container class="terminal">
+                            <div class="fadeIn">
+                                <p>Este es mi portafolio personal, este portafolio está hecho con html5, css, vuejs y
+                                    vuetify.</p>
+                                <p>En la siguiente página podrás ver toda la información sobre mi y mis proyectos
+                                    realizados.</p>
+                                <p>Si quieres saber más de mi puedes acceder de forma directa al formulario de contacto
+                                    haciendo click
+                                    en el boton de abajo!</p>
+                                <p>Espero que disfrutes de mi portafolio!</p>
+                            </div>
+                            <v-row class="btngroup">
+                                <v-col class="fadeIn-1">
+                                    <v-btn href="Portafolio" block x-large dark color="pink">Ver mi portafolio
+                                    </v-btn>
+                                </v-col>
+                                <v-col class="fadeIn-2">
+                                    <v-btn @click="contacto" block x-large dark color="teal">Contactar</v-btn>
+                                </v-col>
+                            </v-row>
+                    </v-container>
+                </div>
+
+
+            </v-main>
+        </v-app>
+</template>
+<script>
+  export default {
+    name: 'Inicio',
+     data: () => ({
+     
+    }),
+    mounted() {
+      
+    },
+    methods: {
+      contacto(){
+           this.$swal({
+        title: '<h2>Hablemos?</h2>',
+        html:
+        '<img src="https://pbs.twimg.com/profile_images/470979760789532672/G-tNcWgj_400x400.jpeg" width="100px"><br>'+
+          '<h3>Solo debes seleccionar <b>una de estas 3 opciones</b></h3><br> ' +
+          '<a href="https://www.linkedin.com/in/alealmonacid/"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png"/></a> ' +
+          '<a href="https://api.whatsapp.com/send?phone=56978603786"><img src="https://img.icons8.com/plasticine/100/000000/whatsapp.png"/></a> ' +
+          '<a href="https://alejandroalmonacid.cl/portafolio"><img src="https://img.icons8.com/plasticine/100/000000/form.png"/></a> ',
+        showCloseButton: true,
+        focusConfirm: false,
+        confirmButtonText:
+          'Cerrar',
+        
+      })
+      }
+    }
+  }
+</script>
+<style scoped>
+ /*Animaciones*/
+
+        .fadeInDown {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        @-webkit-keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, -100%, 0);
+                transform: translate3d(0, -100%, 0);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, -100%, 0);
+                transform: translate3d(0, -100%, 0);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+
+        .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        .fadeIn-1 {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            animation-delay: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        .fadeIn-2 {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            animation-delay: 3s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+        /*Fin Animaciones*/
+        .terminalcompleta{
+            display: flex;           /* establish flex container */
+            flex-direction: column;  /* make main axis vertical */
+            justify-content: center; /* center items vertically, in this case */
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            
+            
+                    }
+        .barraterminal {
+            background-color: rgb(88, 88, 88);
+            width: 50%;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 25px;
+            border-radius: 25px 25px 0px 0px;
+        }
+
+        .titulo-barraterminal {
+            font-size: 1.5rem;
+            color: #f2f2f2;
+            float: right;
+        }
+
+        .terminal {
+            background-color: rgb(50, 50, 65);
+            color: #f2f2f2;
+            width: 50%;
+            padding: 3%;
+            border-radius: 0px 0px 25px 25px;
+        }
+
+        .terminal p {
+            color: #f2f2f2;
+        }
+
+        .btngroup {
+            margin-top: 5%;
+        }
+
+
+    @media screen and (max-width: 800px) {
+        .barraterminal {
+            background-color: rgb(88, 88, 88);
+            width: 80%;
+            margin-top: 5%;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 25px;
+            border-radius: 25px 25px 0px 0px;
+        }
+        .terminal {
+            background-color: rgb(50, 50, 65);
+            color: #f2f2f2;
+            width: 80%;
+            margin-bottom: 15%;
+            padding: 5%;
+            border-radius: 0px 0px 25px 25px;
+        }
+        .iconsbarra{
+            display: none;
+        }
+    }
+
+        h1 {
+            color: #383838;
+            font-size: 2rem;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+        }
+
+        p {
+            font-size: 1rem;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+        }
+        
+</style>
